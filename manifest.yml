@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MY-PersonalityInsights-APP
+  host: MY-PersonalityInsights-APP
+  disk_quota: 1024M
+  services:
+  - MY-PersonalityInsights-APP-personality_insights
